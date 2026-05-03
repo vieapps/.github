@@ -34,11 +34,11 @@ Runtime-level admission control regulates concurrency and request flow, ensuring
 
 ### Choose your perspective
 
-[[ For Business ]](https://vieapps.com/ngx/what-is-vieapps-ngx/for-business.html)
+[ [For Business](https://vieapps.com/ngx/what-is-vieapps-ngx/for-business.html) ]
 
 Scale systems without re-architecture — even under real-world load.
 
-[[ For Engineering ]](https://vieapps.com/ngx/what-is-vieapps-ngx/for-engineering.html)
+[ [For Engineering](https://vieapps.com/ngx/what-is-vieapps-ngx/for-engineering.html) ]
 
 Understand how communication, routing, and execution are controlled at runtime.
 
