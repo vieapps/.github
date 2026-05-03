@@ -1,6 +1,6 @@
 # VIEApps NGX
 
-A runtime layer for communication, routing, and execution in distributed systems
+A platform for communication, routing, and execution in distributed systems
 
 Decouple service logic from system operation.
 
