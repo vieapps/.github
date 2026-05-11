@@ -57,9 +57,9 @@ VIEApps NGX is open-source. You can clone it right now.
 
 But if you don't understand:
 
-- Why WAMP with Routed RPC instead of gRPC
-
 - Why ReactiveX for execution pipelines
+
+- Why Routed RPC by WAMP instead of gRPC
 
 - Why slots instead of CPU thresholds
 
@@ -67,7 +67,7 @@ But if you don't understand:
 
 ...then you'll deploy it wrong. And blame the tool.
 
-We've been running this in production since 2017. 
+We've been running this in production since 2019. 
 We learned these lessons so you don't have to.
 
 ### Get Started
