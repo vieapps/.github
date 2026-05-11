@@ -13,6 +13,9 @@ A unified runtime that replaces your service mesh, API gateway, RPC framework, a
 Core ideas:
 - **Routed RPC**: Services don't call each other. The runtime routes.
 - **Admission Control**: Concurrency in slots. Your CPU metrics are lying to you.
+  *Reference: Ubuntu 24.04, 4 vCPU/8GB = 1,500 slots/node. 
+  2019 baseline: 2 vCPU/4GB = ~900 slots at 20k ops/s. 
+  Tune based on your Router node's actual throughput.*
 - **Transport Agnostic**: REST, WebSocket, SSE, MCP - same execution model.
 - **Runtime-Aware Edge**: Cache invalidation by business logic, not TTL guesswork.
 
