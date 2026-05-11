@@ -1,52 +1,73 @@
 # VIEApps NGX
 
-![VIEApps NGX: Clean Architecture - Pure Performance](https://fs.vieapps.net/images/e7d874add436487ba0d092e5d5246d6b/ef1bce6dc66f418e8df5a6ed631c13d3/vieapps-ngx-architecture.png.webp)
+**The Communication Runtime for Distributed Systems**
 
-A platform for communication, routing, and execution in distributed systems
+Decouple service logic from system operation. Control distributed execution at runtime — not through infrastructure.
 
-Decouple service logic from system operation.
+![VIEApps NGX Architecture](https://fs.vieapps.net/images/e7d874add436487ba0d092e5d5246d6b/ef1bce6dc66f418e8df5a6ed631c13d3/vieapps-ngx-architecture.png.webp)
 
-Control distributed execution at runtime — not through infrastructure.
+By moving control from service code and infrastructure layers into a unified runtime, VIEApps NGX enables scalable, resilient, and loosely coupled system architectures.
+This is not middleware. This is your system's nervous system.
 
-### Move control from infrastructure to runtime
+### What is this?
 
-VIEApps NGX introduces an application-level runtime that manages:
+A unified runtime that replaces your service mesh, API gateway, RPC framework, 
+and half your YAML files.
 
-- message-driven service communication
-- routed RPC execution across nodes
-- dynamic load distribution and coordination
+Core ideas:
+- **Routed RPC**: Services don't call each other. The runtime routes.
+- **Admission Control**: Concurrency in slots. Your CPU metrics are lying to you.
+- **Transport Agnostic**: REST, WebSocket, SSE, MCP - same execution model.
+- **Runtime-Aware Edge**: Cache invalidation by business logic, not TTL guesswork.
 
-This eliminates direct coupling between services and reduces reliance on infrastructure-level mechanisms such as service mesh or tightly bound RPC layers.
+### Who is this for?
 
-### One runtime, multiple communication patterns
+**Not for you if**: You've never run distributed systems in production.
+VIEApps NGX assumes you understand why "microservices" became "microservice hell".
 
-- REST for request-response
-- WebSocket for bidirectional real-time
-- SSE as fallback under network constraints
-- MCP for AI-native integration via Model Context Protocol, exposing Routed RPC as tools/resources
+**For you if**: You've paid the K8s tax. You've been bitten by service mesh latency.
+You've watched a single slow service take down your entire cluster.
+You know infrastructure shouldn't be your product.
 
-All mapped into the same internal execution model.
+### Latest battle-tested
+May 7, 2026 - National traffic spike:
+- 3,278 concurrent requests
+- 1.15M requests in 60 minutes  
+- 0 rejections, 0 nodes scaled
+- 36% capacity used
 
-### Built for real-world load
+The runtime applied backpressure when Redis choked. No circuit breakers fired.
+Because we don't do circuit breakers. We do admission control.
 
-Runtime-level admission control regulates concurrency and request flow, ensuring:
+### The Hard Truth
 
-- stability under traffic spikes
-- protection against overload
-- consistent system responsiveness
+**The code is free. The expertise isn't.**
 
-### Choose your perspective
+VIEApps NGX is open-source. You can clone it right now.
 
-[ [For Business](https://vieapps.com/ngx/what-is-vieapps-ngx/for-business.html) ]
+But if you don't understand:
 
-Scale systems without re-architecture — even under real-world load.
+- Why WAMP with Routed RPC instead of gRPC
 
-[ [For Engineering](https://vieapps.com/ngx/what-is-vieapps-ngx/for-engineering.html) ]
+- Why ReactiveX for execution pipelines
 
-Understand how communication, routing, and execution are controlled at runtime.
+- Why slots instead of CPU thresholds
 
-### Deep dive
+- Why admission control beats auto-scaling
 
-Full architecture, execution model, and design principles:
+...then you'll deploy it wrong. And blame the tool.
 
-→ [What is VIEApps NGX, really?](https://vieapps.com/ngx/what-is-vieapps-ngx/what-really-vieapps-ngx-is.html)
+We've been running this in production since 2017. 
+We learned these lessons so you don't have to.
+
+### Get Started
+
+**Code**: [github.com/vieapps/ngx](https://github.com/vieapps) 
+**Docs**: https://vieapps.com
+**Commercial Support**: For when you realize free code doesn't mean free operations
+
+### License
+Apache 2.0. Use it. Fork it. But if you go to production with it, talk to someone who's been there.
+
+---
+*If K8s was your first distributed system, VIEApps NGX is your last.*
