@@ -1,5 +1,7 @@
 # VIEApps NGX
 
+![VIEApps NGX: Clean Architecture - Pure Performance](https://fs.vieapps.net/images/e7d874add436487ba0d092e5d5246d6b/ef1bce6dc66f418e8df5a6ed631c13d3/vieapps-ngx-architecture.png.webp)
+
 A platform for communication, routing, and execution in distributed systems
 
 Decouple service logic from system operation.
@@ -21,6 +23,7 @@ This eliminates direct coupling between services and reduces reliance on infrast
 - REST for request-response
 - WebSocket for bidirectional real-time
 - SSE as fallback under network constraints
+- MCP for AI-native integration via Model Context Protocol, exposing Routed RPC as tools/resources
 
 All mapped into the same internal execution model.
 
