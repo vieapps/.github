@@ -16,11 +16,11 @@ Core ideas:
 
 - **Admission Control**: Concurrency in slots. Your CPU metrics are lying to you.
 
-  *Reference: Ubuntu 24.04, 4 vCPU/8GB = 1,500 slots/node. 
+  *Reference: Ubuntu 24.04, 4 vCPU/8GB = 1,500 slots/node.*
 
-  2019 baseline: 2 vCPU/4GB = ~900 slots at 20k ops/s. 
+  *2019 baseline: 2 vCPU/4GB = ~500 slots at 20k ops/s.*
 
-  Tune based on your Router node's actual throughput.*
+  *Tune based on your Router node's actual throughput.*
 
 - **Transport Agnostic**: REST, WebSocket, SSE, MCP - same execution model.
 
