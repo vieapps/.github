@@ -20,7 +20,7 @@ Core ideas:
 
   *2019 baseline: 2 vCPU/4GB = ~500 slots at 20k ops/s.*
 
-  *Tune based on your Router node's actual throughput.*
+  *Tune based on your API Gateway Router node's actual throughput.*
 
 - **Transport Agnostic**: REST, WebSocket, SSE, MCP - same execution model.
 
