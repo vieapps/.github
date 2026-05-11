@@ -37,7 +37,7 @@ You know infrastructure shouldn't be your product.
 
 By moving control from service code and infrastructure layers into a unified runtime, VIEApps NGX enables scalable, resilient, and loosely coupled system architectures.
 
-This is not middleware. This is your system's nervous system.
+This is not middleware. This is your system's central nervous system.
 
 ### Latest battle-tested
 May 7, 2026 - National traffic spike:
