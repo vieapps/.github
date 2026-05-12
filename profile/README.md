@@ -52,7 +52,7 @@ We don't do circuit breakers. We do admission control.
 
 ### The Hard Truth
 
-**The code is free. The expertise isn't.**
+**The code is free. The expertise is hard-earned.**
 
 VIEApps NGX is open-source. You can clone it right now.
 
@@ -77,6 +77,10 @@ We learned these lessons so you don't have to.
 
 **Docs**: https://vieapps.com
 
+**Rollback plan**: You write it.
+
+**On-call**: You are.
+
 **Commercial Support**: For when you realize free code doesn't mean free operations
 
 ### License
@@ -84,3 +88,8 @@ Apache 2.0. Use it. Fork it. But if you go to production with it, talk to someon
 
 ---
 *If K8s was your first distributed system, VIEApps NGX is your last.*
+
+***Warranty***
+*None.
+If it breaks production, you get to keep both pieces.
+This is not a toy. This is a weapon. Don't point it at your foot unless you're ready to pull the trigger.*
