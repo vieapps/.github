@@ -89,7 +89,8 @@ Apache 2.0. Use it. Fork it. But if you go to production with it, talk to someon
 ---
 *If K8s was your first distributed system, VIEApps NGX is your last.*
 
-***Warranty***
-*None.
-If it breaks production, you get to keep both pieces.
-This is not a toy. This is a weapon. Don't point it at your foot unless you're ready to pull the trigger.*
+***Warranty***: *None.*
+
+*If it breaks production, you get to keep both pieces.*
+
+*This is not a toy. This is a weapon. Don't point it at your foot unless you're ready to pull the trigger.*
