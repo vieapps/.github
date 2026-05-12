@@ -47,7 +47,8 @@ May 7, 2026 - National traffic spike:
 - 36% capacity used
 
 The runtime applied backpressure when Redis choked. No circuit breakers fired.
-Because we don't do circuit breakers. We do admission control.
+
+We don't do circuit breakers. We do admission control.
 
 ### The Hard Truth
 
@@ -59,7 +60,7 @@ But if you don't understand:
 
 - Why ReactiveX for execution pipelines
 
-- Why Routed RPC by WAMP instead of gRPC
+- Why WAMP Routed RPC instead of gRPC
 
 - Why slots instead of CPU thresholds
 
