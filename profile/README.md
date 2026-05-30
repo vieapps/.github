@@ -8,7 +8,7 @@ Decouple service logic from system operation. Control distributed execution at r
 
 ### What is this?
 
-A unified runtime that replaces your service mesh, API gateway, RPC framework, and most your YAML files.
+A unified runtime that replaces your service mesh, API gateway, RPC framework, and most your YAML addiction.
 
 Core ideas:
 
