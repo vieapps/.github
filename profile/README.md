@@ -1,6 +1,6 @@
 # VIEApps NGX
 
-**The Communication Runtime for Distributed Systems**
+**The Communication Runtime Platform for Distributed Systems**
 
 Decouple service logic from system operation. Control distributed execution at runtime — not through infrastructure.
 
