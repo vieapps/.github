@@ -22,7 +22,7 @@ Core ideas:
 
   *Tune based on your API Gateway Router actual throughput.*
 
-- **Transport Agnostic**: REST, WebSocket, SSE, MCP - same execution model.
+- **Transport Agnostic**: REST, WebSocket, SSE (Server-Sent Events), MCP (Model Context Protocol) - same execution model.
 
 - **Runtime-Aware Edge**: Cache invalidation by business logic, not TTL guesswork.
 
