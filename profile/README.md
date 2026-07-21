@@ -4,7 +4,7 @@
 
 Decouple service logic from system operation. Control distributed execution at runtime — not through infrastructure.
 
-![VIEApps NGX Architecture](https://fs.vieapps.net/images/e7d874add436487ba0d092e5d5246d6b/ef1bce6dc66f418e8df5a6ed631c13d3/vieapps-ngx-architecture.png.webp)
+![VIEApps NGX](https://fs.vieapps.net/images/e7d874add436487ba0d092e5d5246d6b/ef1bce6dc66f418e8df5a6ed631c13d3/vieapps-ngx-architecture.png.webp)
 
 ### What is this?
 
